@@ -1,3 +1,2 @@
 FROM ubuntu:latest
-LABEL 
 RUN apt-get update && apt-get install curl --yes
