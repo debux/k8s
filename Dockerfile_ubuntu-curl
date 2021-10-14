@@ -1,2 +1,3 @@
 FROM ubuntu:latest
+LABEL https://github.com/debux/
 RUN apt-get update && apt-get install curl --yes
